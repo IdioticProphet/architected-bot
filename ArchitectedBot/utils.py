@@ -4,7 +4,7 @@ from difflib import SequenceMatcher
 from PIL import Image
 
 
-def was_killed_by_archetects(img_name) -> bool:
+def was_killed_by_architects(img_name) -> bool:
     img = cv2.imread(img_name)
     original = img
     gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
